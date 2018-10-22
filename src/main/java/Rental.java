@@ -1,9 +1,9 @@
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class Rental {
 
-    private Date from;
-    private Date to;
+    private LocalDateTime from;
+    private LocalDateTime to;
     private Product product;
 
 }
