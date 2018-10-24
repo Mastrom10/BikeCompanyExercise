@@ -40,7 +40,8 @@ public class Transaction {
         this.rentals = new ArrayList<>();
     }
 
-    public void addRental(Rental rental){
+    public Transaction addRental(Rental rental){
         rentals.add(rental);
+        return this;
     }
 }

@@ -4,7 +4,7 @@ public class FamilyRentalPromo implements Promotion {
         if (quantity >= 3) {
             return originalPrice * 30 / 100;
         }
-        return originalPrice;
+        return 0f;
     }
 
 }
