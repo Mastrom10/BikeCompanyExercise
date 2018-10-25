@@ -1,4 +1,4 @@
-# Bike Company Excercise
+# Bike Company Exercise
 ### Context
 A company rents bikes under following options:
 1. Rental by hour, charging $5 per hour
