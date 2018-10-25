@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Transaction {
 
-    List<Rental> rentals;
-    Promotion promo;
+    private List<Rental> rentals;
+    private Promotion promo;
 
 
     /**
