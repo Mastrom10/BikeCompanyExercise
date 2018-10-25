@@ -50,6 +50,7 @@ We can find a complete explanation of the *Strategy* pattern used in the followi
 ### Development practices
 
 One practice that we used was to self-document our code. this way any developer can understand the code when it is time to modify it.
+
 ![selfdocumented](extras/selfdocumented.png)
 
 
@@ -70,7 +71,7 @@ A TDD methodology was not applied, since we did not have a specification of the 
 
 ![tests](extras/tests.png)
 
-In addition to 100% of our codic is correct, we also perform a series of tests to ensure that the logic within our methods is correct:
+In addition to 100% code coverage, we also perform a series of tests to ensure that the logic within our methods is correct:
 ```
 Price Calculator Validations:
 
@@ -99,6 +100,7 @@ Weeks: 2 Days: 0 Hours: 0 Minutes: 0 | PRICE: 120.0
 ```
 
 All our tests are inside the "test" folder and in order to execute them we must configure in our IDE (in this case IntelliJ) a JUnit execution.
+
 ![runtests](extras/runtests.png)
 
 ### Warnings and considerations. 
